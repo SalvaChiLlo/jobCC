@@ -23,5 +23,8 @@
     "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.26.0",
     "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "translate": "^1.4.1"
   }
 }
