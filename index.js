@@ -24,7 +24,7 @@ USO:
 
   const text = await translate(config.SOURCE_TEXT, process.argv[2]);
   fs.mkdirSync("./output", { recursive: true })
-  fs.writeFileSync('./output/TranslatedText', text);
+  fs.writeFileSync('./output/TranslatedText.txt', text);
 }
 
 translateText();
